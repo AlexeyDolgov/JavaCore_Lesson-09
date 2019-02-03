@@ -31,7 +31,7 @@ public class Methods {
 	}
 
 	static void viewCalcResult(double result) {
-		System.out.println("Результ операции равен " + result);
+		System.out.println("Р РµР·СѓР»СЊС‚ РѕРїРµСЂР°С†РёРё СЂР°РІРµРЅ " + result);
 	}
 
 	static void check() throws MyException {

@@ -16,16 +16,16 @@ public class Main {
 	/* displays the application menu on the console */
 	static void menu() {
 		System.out.println();
-		System.out.println("Введите 1, чтобы проверить существует ли введенный месяц");
-		System.out.println("Введите 2, чтобы вывести все месяцы с такой же порой года");
-		System.out.println("Введите 3, чтобы вывести все месяцы с таким же количеством дней");
-		System.out.println("Введите 4, чтобы вывести все месяцы с меньшим количеством дней");
-		System.out.println("Введите 5, чтобы вывести все месяцы с большим количеством дней");
-		System.out.println("Введите 6, чтобы вывести следующую пору года");
-		System.out.println("Введите 7, чтобы вывести предыдущую пору года");
-		System.out.println("Введите 8, чтобы вывести все месяцы с четным количеством дней");
-		System.out.println("Введите 9, чтобы вывести все месяцы с нечетным количеством дней");
-		System.out.println("Введите 0, чтобы проверить четное ли количество дней в введенном месяце");
+		System.out.println("Р’РІРµРґРёС‚Рµ 1, С‡С‚РѕР±С‹ РїСЂРѕРІРµСЂРёС‚СЊ СЃСѓС‰РµСЃС‚РІСѓРµС‚ Р»Рё РІРІРµРґРµРЅРЅС‹Р№ РјРµСЃСЏС†");
+		System.out.println("Р’РІРµРґРёС‚Рµ 2, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ С‚Р°РєРѕР№ Р¶Рµ РїРѕСЂРѕР№ РіРѕРґР°");
+		System.out.println("Р’РІРµРґРёС‚Рµ 3, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ С‚Р°РєРёРј Р¶Рµ РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№");
+		System.out.println("Р’РІРµРґРёС‚Рµ 4, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ РјРµРЅСЊС€РёРј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№");
+		System.out.println("Р’РІРµРґРёС‚Рµ 5, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ Р±РѕР»СЊС€РёРј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№");
+		System.out.println("Р’РІРµРґРёС‚Рµ 6, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё СЃР»РµРґСѓСЋС‰СѓСЋ РїРѕСЂСѓ РіРѕРґР°");
+		System.out.println("Р’РІРµРґРёС‚Рµ 7, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РїСЂРµРґС‹РґСѓС‰СѓСЋ РїРѕСЂСѓ РіРѕРґР°");
+		System.out.println("Р’РІРµРґРёС‚Рµ 8, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ С‡РµС‚РЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№");
+		System.out.println("Р’РІРµРґРёС‚Рµ 9, С‡С‚РѕР±С‹ РІС‹РІРµСЃС‚Рё РІСЃРµ РјРµСЃСЏС†С‹ СЃ РЅРµС‡РµС‚РЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№");
+		System.out.println("Р’РІРµРґРёС‚Рµ 0, С‡С‚РѕР±С‹ РїСЂРѕРІРµСЂРёС‚СЊ С‡РµС‚РЅРѕРµ Р»Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РІ РІРІРµРґРµРЅРЅРѕРј РјРµСЃСЏС†Рµ");
 	}
 
 	public static void main(String[] args) throws WrongInputConsoleParametersException {
@@ -42,16 +42,16 @@ public class Main {
 			switch (scanner.nextInt()) {
 
 			case 1: {
-				System.out.println("=== Программа проверки существования введенного месяца ===");
-				System.out.println("Введите месяц:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РїСЂРѕРІРµСЂРєРё СЃСѓС‰РµСЃС‚РІРѕРІР°РЅРёСЏ РІРІРµРґРµРЅРЅРѕРіРѕ РјРµСЃСЏС†Р° ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РјРµСЃСЏС†:");
 				String month1 = scanner.next();
 
 				boolean flag = isMonthExists(arrayMonths, month1);
 
 				if (flag == true) {
-					System.out.println("Введенный месяц существует!");
+					System.out.println("Р’РІРµРґРµРЅРЅС‹Р№ РјРµСЃСЏС† СЃСѓС‰РµСЃС‚РІСѓРµС‚!");
 				} else {
-					String message = "Такого месяца нет!";
+					String message = "РўР°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -59,8 +59,8 @@ public class Main {
 			}
 
 			case 2: {
-				System.out.println("=== Программа вывода всех месяцев с введенной порой года ===");
-				System.out.println("Введите пору года:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РІСЃРµС… РјРµСЃСЏС†РµРІ СЃ РІРІРµРґРµРЅРЅРѕР№ РїРѕСЂРѕР№ РіРѕРґР° ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РїРѕСЂСѓ РіРѕРґР°:");
 				String season2 = scanner.next();
 
 				boolean flag = false;
@@ -72,7 +72,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Пора года " + season2 + " в следующих месяцах:");
+					System.out.println("РџРѕСЂР° РіРѕРґР° " + season2 + " РІ СЃР»РµРґСѓСЋС‰РёС… РјРµСЃСЏС†Р°С…:");
 
 					for (Months months2 : arrayMonths) {
 						if (months2.getSeason().toString().equalsIgnoreCase(season2)) {
@@ -82,7 +82,7 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Таких месяцев нет!";
+					String message = "РўР°РєРёС… РјРµСЃСЏС†РµРІ РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -90,8 +90,8 @@ public class Main {
 			}
 
 			case 3: {
-				System.out.println("=== Программа вывода всех месяцев с введенным количеством дней ===");
-				System.out.println("Введите количество дней:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РІСЃРµС… РјРµСЃСЏС†РµРІ СЃ РІРІРµРґРµРЅРЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№ ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№:");
 				int numberOfDays3 = scanner.nextInt();
 
 				boolean flag = false;
@@ -103,7 +103,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Количество дней " + numberOfDays3 + " в следующих месяцах:");
+					System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ " + numberOfDays3 + " РІ СЃР»РµРґСѓСЋС‰РёС… РјРµСЃСЏС†Р°С…:");
 
 					for (Months months2 : arrayMonths) {
 						if (months2.getNumberOfDays() == numberOfDays3) {
@@ -113,7 +113,7 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Таких месяцев нет!";
+					String message = "РўР°РєРёС… РјРµСЃСЏС†РµРІ РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -121,8 +121,8 @@ public class Main {
 			}
 
 			case 4: {
-				System.out.println("=== Программа вывода всех месяцев с количеством дней меньше введенного ===");
-				System.out.println("Введите количество дней:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РІСЃРµС… РјРµСЃСЏС†РµРІ СЃ РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№ РјРµРЅСЊС€Рµ РІРІРµРґРµРЅРЅРѕРіРѕ ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№:");
 				int numberOfDays4 = scanner.nextInt();
 
 				boolean flag = false;
@@ -134,7 +134,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Количество дней меньше " + numberOfDays4 + " в следующих месяцах:");
+					System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РјРµРЅСЊС€Рµ " + numberOfDays4 + " РІ СЃР»РµРґСѓСЋС‰РёС… РјРµСЃСЏС†Р°С…:");
 
 					for (Months months2 : arrayMonths) {
 						if (months2.getNumberOfDays() < numberOfDays4) {
@@ -144,15 +144,15 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Таких месяцев нет!";
+					String message = "РўР°РєРёС… РјРµСЃСЏС†РµРІ РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				break;
 			}
 
 			case 5: {
-				System.out.println("=== Программа вывода всех месяцев с количеством дней больше введенного ===");
-				System.out.println("Введите количество дней:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РІСЃРµС… РјРµСЃСЏС†РµРІ СЃ РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№ Р±РѕР»СЊС€Рµ РІРІРµРґРµРЅРЅРѕРіРѕ ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№:");
 				int numberOfDays5 = scanner.nextInt();
 
 				boolean flag = false;
@@ -164,7 +164,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Количество дней больше " + numberOfDays5 + " в следующих месяцах:");
+					System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ Р±РѕР»СЊС€Рµ " + numberOfDays5 + " РІ СЃР»РµРґСѓСЋС‰РёС… РјРµСЃСЏС†Р°С…:");
 
 					for (Months months2 : arrayMonths) {
 						if (months2.getNumberOfDays() > numberOfDays5) {
@@ -174,7 +174,7 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Таких месяцев нет!";
+					String message = "РўР°РєРёС… РјРµСЃСЏС†РµРІ РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -182,8 +182,8 @@ public class Main {
 			}
 
 			case 6: {
-				System.out.println("=== Программа вывода следующей поры года ===");
-				System.out.println("Введите пору года:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° СЃР»РµРґСѓСЋС‰РµР№ РїРѕСЂС‹ РіРѕРґР° ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РїРѕСЂСѓ РіРѕРґР°:");
 				String season6 = scanner.next();
 
 				boolean flag = false;
@@ -195,7 +195,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Следующая пора года:");
+					System.out.println("РЎР»РµРґСѓСЋС‰Р°СЏ РїРѕСЂР° РіРѕРґР°:");
 
 					Seasons seasons2 = Seasons.valueOf(firstUpperCase(season6.toLowerCase()));
 					int i = seasons2.ordinal();
@@ -209,7 +209,7 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Такой поры года нет!";
+					String message = "РўР°РєРѕР№ РїРѕСЂС‹ РіРѕРґР° РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -217,8 +217,8 @@ public class Main {
 			}
 
 			case 7: {
-				System.out.println("=== Программа вывода предыдущей поры года ===");
-				System.out.println("Введите пору года:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РїСЂРµРґС‹РґСѓС‰РµР№ РїРѕСЂС‹ РіРѕРґР° ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РїРѕСЂСѓ РіРѕРґР°:");
 				String season7 = scanner.next();
 
 				boolean flag = false;
@@ -230,7 +230,7 @@ public class Main {
 				}
 
 				if (flag == true) {
-					System.out.println("Предыдущая пора года:");
+					System.out.println("РџСЂРµРґС‹РґСѓС‰Р°СЏ РїРѕСЂР° РіРѕРґР°:");
 
 					Seasons seasons2 = Seasons.valueOf(firstUpperCase(season7.toLowerCase()));
 					int i = seasons2.ordinal();
@@ -244,7 +244,7 @@ public class Main {
 				}
 
 				if (flag == false) {
-					String message = "Такой поры года нет!";
+					String message = "РўР°РєРѕР№ РїРѕСЂС‹ РіРѕРґР° РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -252,7 +252,7 @@ public class Main {
 			}
 
 			case 8: {
-				System.out.println("=== Программа вывода месяцев с четным количеством дней ===");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РјРµСЃСЏС†РµРІ СЃ С‡РµС‚РЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№ ===");
 
 				for (Months months : arrayMonths) {
 					if (months.getNumberOfDays() % 2 == 0) {
@@ -264,7 +264,7 @@ public class Main {
 			}
 
 			case 9: {
-				System.out.println("=== Программа вывода месяцев с нечетным количеством дней ===");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґР° РјРµСЃСЏС†РµРІ СЃ РЅРµС‡РµС‚РЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРЅРµР№ ===");
 
 				for (Months months : arrayMonths) {
 					if (months.getNumberOfDays() % 2 != 0) {
@@ -276,8 +276,8 @@ public class Main {
 			}
 
 			case 0: {
-				System.out.println("=== Программа проверки четности количества дней в введенном месяце ===");
-				System.out.println("Введите месяц:");
+				System.out.println("=== РџСЂРѕРіСЂР°РјРјР° РїСЂРѕРІРµСЂРєРё С‡РµС‚РЅРѕСЃС‚Рё РєРѕР»РёС‡РµСЃС‚РІР° РґРЅРµР№ РІ РІРІРµРґРµРЅРЅРѕРј РјРµСЃСЏС†Рµ ===");
+				System.out.println("Р’РІРµРґРёС‚Рµ РјРµСЃСЏС†:");
 				String month0 = scanner.next();
 
 				boolean flag = isMonthExists(arrayMonths, month0);
@@ -286,16 +286,16 @@ public class Main {
 					Months month = Months.valueOf(firstUpperCase(month0.toLowerCase()));
 
 					if (month.getNumberOfDays() % 2 == 0) {
-						System.out.println("Количество дней в месяце " + month0 + " - " + month.getNumberOfDays()
-								+ ". Это число - четное");
+						System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РІ РјРµСЃСЏС†Рµ " + month0 + " - " + month.getNumberOfDays()
+								+ ". Р­С‚Рѕ С‡РёСЃР»Рѕ - С‡РµС‚РЅРѕРµ");
 					} else {
-						System.out.println("Количество дней в месяце " + month0 + " - " + month.getNumberOfDays()
-								+ ". Это число - нечетное");
+						System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РІ РјРµСЃСЏС†Рµ " + month0 + " - " + month.getNumberOfDays()
+								+ ". Р­С‚Рѕ С‡РёСЃР»Рѕ - РЅРµС‡РµС‚РЅРѕРµ");
 					}
 				}
 
 				if (flag == false) {
-					String message = "Такого месяца нет!";
+					String message = "РўР°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµС‚!";
 					throw new WrongInputConsoleParametersException(message);
 				}
 				
@@ -303,7 +303,7 @@ public class Main {
 			}
 
 			default: {
-				System.out.println("Введите число от 0 до 9!");
+				System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 0 РґРѕ 9!");
 
 				break;
 			}
